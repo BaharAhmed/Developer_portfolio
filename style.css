@@ -3,8 +3,11 @@ body{
     margin: 0%;
 }
 h1{
-    font-size: 40px;
+    font-size: 50px;
 }
+ h2{
+     font-size: 30px ;
+ }
 .orange-color{
     color: orange;
 }
@@ -37,3 +40,31 @@ h1{
     background-repeat: no-repeat;
     background-position: right ;
 }
+.exp-itm{
+    width: 40%;
+    border-left: 10px solid green;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 40px gray;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+}
+#baby{
+    border-left: 7px solid ;
+    border-image: linear-gradient( blue, cyan ) ;
+    border-image-slice: 1;}
+#full-stk{
+    border-left: 7px solid ;
+    border-image: linear-gradient(purple, tomato  ) ;
+    border-image-slice: 1;}
+footer p{
+    text-align: center;
+}
+ 
